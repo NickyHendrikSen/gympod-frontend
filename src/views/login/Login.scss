@@ -32,11 +32,16 @@ $textNormalSize: 18px;
         justify-content: center;
         align-items: center;
         .LoginContentWrapper{
-            width: 50%;
+            width: 400px;
             height: auto;
             text-align: center;
             .LoginTitle{
-            font-size: $titleSize;
+                font-size: $titleSize; 
+                margin: 30px 0px;
+            }
+            button{
+                background-color: $yellowColor;
+                border-radius: 4px;
             }
         }
     }

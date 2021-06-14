@@ -1,0 +1,21 @@
+.Dashboard{
+    .DashboardContent{
+        padding: 30px;
+        .DashboardContentFilterWrapper{
+            box-shadow: 1px 5px 5px 2px #aaaaaa;
+            padding: 20px;
+            background-color: #fff;
+            .FilterSearchBtn{
+                font-weight: bold;
+            }
+            .DashboardFilters{
+                display: flex;
+                justify-content: center;
+                margin: 20px 0px;
+                .FilterField{
+                    margin: 0% 1%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+$yellowColor: #ffcc00;
+$blackColor: #000000;
+$whiteColor: #fff;
+$titleSize: 40px;
+$textNormalSize: 18px;
+
+.NavBar{
+    height: 100px;
+    background-color: $yellowColor;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    *{
+        line-height: 100px;
+    }
+    .NavBarTitle{
+        margin-left: 30px;
+        font-size: $titleSize;
+        font-weight: bold;
+    }
+    .NavBarRight{
+        margin-right: 30px;
+        display: flex;
+        justify-content: center;
+        .NavBarGreet{
+            font-size: $textNormalSize;
+            margin-right: 30px;
+        }
+        .BtnLogout{
+            width: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            button{
+                background-color: $blackColor;
+                color: $whiteColor;
+                border-radius: 4px;
+            }
+        }
+    }
+}
