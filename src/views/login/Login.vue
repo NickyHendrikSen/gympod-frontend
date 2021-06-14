@@ -35,8 +35,12 @@ export default {
     onSubmit(){
       axios.post('http://localhost:8000/api/login', {'user_name': this.user_name, 'password': this.password}).then((res)=>{
         localStorage.setItem("access_token", res.data.access_token)
-        console.log(res.data.access_token)
-        this.$router.push({name: 'Dashboard'})
+        // console.log(res.data)
+        this.$router.push({name: 'Dashboard'})  
+      }).catch((e) => {
+        if(e.response.status == 422){
+          alert(e.response.data.errors)
+        }
       })
     }
   }

@@ -1,6 +1,6 @@
 <template>
   <div class="NavBar">
-    <div class="NavBarTitle">Gym Pod</div>
+    <router-link class="NavBarTitle" to="/">Gym Pod</router-link>
     <div class="NavBarRight">
         <div class="NavBarGreet">Hello, {{this.user.user_name == undefined ? "Loading..." : this.user.user_name}}</div>
         <div class="BtnLogout">

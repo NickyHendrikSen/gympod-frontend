@@ -17,6 +17,12 @@ $textNormalSize: 18px;
         margin-left: 30px;
         font-size: $titleSize;
         font-weight: bold;
+        text-decoration: none;
+        color: black !important;
+        &:hover{
+            text-decoration: none !important;
+            transform: scale(1.1);
+        }
     }
     .NavBarRight{
         margin-right: 30px;

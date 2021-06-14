@@ -17,5 +17,34 @@
                 }
             }
         }
+        .ListBookings{
+            margin-top: 30px;
+            box-shadow: 1px 5px 5px 2px #aaaaaa;
+            padding: 20px;
+            background-color: #fff;
+            tr{
+                cursor: pointer;
+            }
+            .Pagination{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 18px;
+                color: black;
+                *{
+                    margin: 0 10px;
+                }
+                .Pages{
+                    .InputPage{
+                        text-align: center;
+                        outline: none;
+                        width: 100px;
+                        display: inline-block;
+                        border: none;
+                        border-bottom: 1px solid black;
+                    }
+                }
+            }
+        }
     }
 }
