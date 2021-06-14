@@ -1,0 +1,43 @@
+$yellowColor: #ffcc00;
+$blackColor: #000000;
+$titleSize: 40px;
+$textNormalSize: 18px;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.Login{
+    font-family: 'Gill Sans MT';
+    display: flex;
+    height: 100vh;
+    .LoginHeader{
+        width: 30%;
+        height: 100%;
+        background-color: $yellowColor;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .HeaderTitle{
+            position: absolute;
+            font-size: $titleSize;
+            font-weight: bold;
+            color: $blackColor;
+        }
+    }
+    .LoginContent{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .LoginContentWrapper{
+            width: 50%;
+            height: auto;
+            text-align: center;
+            .LoginTitle{
+            font-size: $titleSize;
+            }
+        }
+    }
+}

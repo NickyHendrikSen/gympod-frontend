@@ -1,17 +1,14 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <router-view />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import Login from './views/Login.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // Login
   }
 }
 </script>
